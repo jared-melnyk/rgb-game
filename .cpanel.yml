@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jaredmel/public_html/rbg-game/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp rgb.css $DEPLOYPATH
+    - /bin/cp rgb.js $DEPLOYPATH
